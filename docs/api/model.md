@@ -9,22 +9,151 @@ nav_order: 1
 
 ## Properties
 
-| Name           |       Type       | Read-only | Description                                                            |
-| -------------- | :--------------: | :-------: | ---------------------------------------------------------------------- |
-| `width`        |     `number`     |           | The width of the model in [Fields][field]                              |
-| `height`       |     `number`     |           | The height of the model in [Fields][field]                             |
-| `scale`        |     `number`     |           | The zoom level of the model, the size of a field in pixels             |
-| `fields`       |     `array`      |    yes    | The array of [Fields][field] of the model in row-major order           |
-| `agents`       |     `array`      |    yes    | The array of [Agents][agent] of the model in the order they were added |
-| `centerX`      |     `number`     |    yes    | The X coordinate of the center of the model                            |
-| `centerY`      |     `number`     |    yes    | The Y coordinate of the center of the model                            |
-| `center`       |     `object`     |    yes    | The coordinates of the center of the model in `{ x, y }` format        |
-| `randomX`      |     `number`     |    yes    | A random X coordinate of the model                                     |
-| `randomY`      |     `number`     |    yes    | A random Y coordinate of the model                                     |
-| `randomFieldX` |     `number`     |    yes    | The X coordinate of a random [Field][field] of the model               |
-| `randomFieldY` |     `number`     |    yes    | The Y coordinate of a random [Field][field] of the model               |
-| `randomField`  | `[Field][field]` |    yes    | A random [Field][field] of the model                                   |
-| `randomAgent`  | `[Agent][agent]` |    yes    | A random [Agent][agent] of the model                                   |
+### `width`
+
+Type
+: `number`
+Description
+: The width of the model in [Fields][field]
+
+---
+
+### `height`
+
+Type
+: `number`
+Description
+: The height of the model in [Fields][field]
+
+---
+
+### `scale`
+
+Type
+: `number`
+Description
+: The zoom level of the model, the size of a [Fields][field] in pixels
+
+---
+
+### `fields`
+
+Type
+: `array`
+Readonly
+: yes
+Description
+: The array of [Fields][field] of the model in row-major order
+
+---
+
+### `agents`
+
+Type
+: `array`
+Readonly
+: yes
+Description
+: The array of [Agents][agent] of the model in the order they were added
+
+---
+
+### `centerX`
+
+Type
+: `number`
+Readonly
+: yes
+Description
+: The X coordinate of the center of the model
+
+---
+
+### `centerY`
+
+Type
+: `number`
+Readonly
+: yes
+Description
+: The Y coordinate of the center of the model
+
+---
+
+### `center`
+
+Type
+: `object`
+Readonly
+: yes
+Description
+: The coordinates of the center of the model in `{ x, y }` format
+
+---
+
+### `randomX`
+
+Type
+: `number`
+Readonly
+: yes
+Description
+: A random X coordinate of the model
+
+---
+
+### `randomY`
+
+Type
+: `number`
+Readonly
+: yes
+Description
+: A random Y coordinate of the model
+
+---
+
+### `randomFieldX`
+
+Type
+: number`
+Readonly
+: yes
+Description
+: The X coordinate of a random [Field][field] of the model
+
+---
+
+### `randomFieldY`
+
+Type
+: number`
+Readonly
+: yes
+Description
+: The Y coordinate of a random [Field][field] of the model
+
+---
+
+### `randomField`
+
+Type
+: [Field][field]
+Readonly
+: yes
+Description
+: A random [Field][field] of the model
+
+---
+
+### `randomAgent`
+
+Type
+: [Agent][agent]
+Readonly
+: yes
+Description
+: A random [Agent][agent] of the model
 
 ## Methods
 
