@@ -1,6 +1,6 @@
 ---
 title: Home
-permalink: /home
+permalink: /
 nav_order: 1
 ---
 
