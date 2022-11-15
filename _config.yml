@@ -1,11 +1,12 @@
 # Basics
 title: Agent JS
 description: Documentation for Agent JS
+source: /docs
 
 # Theme
 remote_theme: just-the-docs/just-the-docs
 
-# Feature
+# Features
 search_enabled: true
 search:
   heading_level: 2
