@@ -1,9 +1,9 @@
 ---
 title: Model
 permalink: /api/model
-parent: API documentation
+parent: API Reference
 nav_order: 1
-layout: api_documentation
+layout: reference
 ---
 
 # Model Class
