@@ -1,0 +1,14 @@
+---
+---
+
+@import "support/variables";
+
+h3 {
+  background-color: $grey-lt-000;
+  font-family: $mono-font-family;
+  padding: 0 $sp-1;
+}
+
+h3 + p {
+  padding: 0 $sp-3;
+}
