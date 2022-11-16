@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+<link rel="stylesheet" href="../../../assets/css/model_example.css" />
+
+<h1>{{ page.title }}</h1>
+
+<h2>Description</h2>
+
+{{ content }}
+
+<h2>Live Model</h2>
+
+<figure class="model">
+  <iframe
+    width="550"
+    height="550"
+    src="models/{{ page.model }}/index.html"
+  ></iframe>
+  <figcaption>
+    {{ page.title }}<br>
+    <a href="models/{{ page.model }}/index.html">Full-page example</a>
+  </figcaption>
+</figure>
+
+<h2>Source Code</h2>
+
+{% highlight js %}
+{% include_relative models/{{ page.model }}/index.js %}
+{% endhighlight %}
