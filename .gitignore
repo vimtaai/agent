@@ -1,0 +1,6 @@
+# Local build
+Gemfile.lock
+_site
+
+# Editor config
+.vscode
