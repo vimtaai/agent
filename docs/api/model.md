@@ -3,7 +3,7 @@ title: Model
 permalink: /api/model
 parent: API documentation
 nav_order: 1
-layout: api-docs
+layout: api_docs
 ---
 
 # Model Class
