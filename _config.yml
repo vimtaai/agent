@@ -1,6 +1,9 @@
 # Basics
 title: Agent JS
 description: Documentation for Agent JS
+
+# Paths
+baseurl: /agent
 layouts_dir: docs/_layouts
 
 # Theme

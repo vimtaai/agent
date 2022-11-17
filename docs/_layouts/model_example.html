@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<link rel="stylesheet" href="/assets/css/model_example.css" />
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/model_example.css" />
 
 <h1>{{ page.title }}</h1>
 
@@ -16,11 +16,13 @@ layout: default
   <iframe
     width="550"
     height="550"
-    src="models/{{ page.model }}/index.html"
+    src="{{ site.baseurl }}/examples/models/{{ page.model }}/index.html"
   ></iframe>
   <figcaption>
     {{ page.title }}<br>
-    <a href="models/{{ page.model }}/index.html">Full-page example</a>
+    <a href="{{ site.baseurl }}/examples/models/{{ page.model }}/index.html">
+      Full-page example
+    </a>
   </figcaption>
 </figure>
 
