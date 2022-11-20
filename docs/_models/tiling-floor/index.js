@@ -2,7 +2,7 @@ import { Model } from "https://vimtaai.github.io/agent/lib/index.js";
 
 const TILE_SIZE = 5;
 
-const model = new Model(100, 100, 5);
+const model = new Model({ width: 100, height: 100, scale: 5 });
 const agent = new Agent();
 
 model.addAgent(agent);

@@ -5,7 +5,7 @@ import { Circle } from "https://vimtaai.github.io/agent/lib/shapes.js";
 const NUMBER_OF_BALLS = 10;
 const BASE_SPEED = 0.5;
 
-const model = new Model(100, 100, 5);
+const model = new Model({ width: 100, height: 100, scale: 5 });
 const timer = new Timer(step, 16);
 
 function setup() {

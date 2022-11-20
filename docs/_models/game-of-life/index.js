@@ -3,7 +3,7 @@ import { Random } from "https://vimtaai.github.io/agent/lib/utils.js";
 
 const INITIAL_DENSITY = 0.25;
 
-const model = new Model(100, 100, 5);
+const model = new Model({ width: 100, height: 100, scale: 5 });
 const timer = new Timer(step, 20);
 
 function setup() {

@@ -10,8 +10,8 @@ layout: reference
 
 ## Constructor
 
-### **new Model**(width = 50, height = 50, scale = 1)
-Creates a new Model and inserts it into the document
+### **new Model**(properties: object)
+Creates a new Model, sets its initial properties from the given object, and inserts it into the document
 
 ## Properties
 

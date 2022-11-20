@@ -5,7 +5,7 @@ const LENGTH_FACTOR = 0.8;
 const BRANCH_ANGLE = 30;
 const MAX_LEVELS = 11;
 
-const model = new Model(100, 100, 5);
+const model = new Model({ width: 100, height: 100, scale: 5 });
 const agent = new Agent();
 
 model.addAgent(agent);

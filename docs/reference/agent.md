@@ -10,8 +10,8 @@ layout: reference
 
 ## Constructor
 
-### **new Agent**({ x = 0, y = 0 })
-Creates a new Agent in memory and sets the default coordinates
+### **new Agent**(properties: object)
+Creates a new Agent, and sets its initial properties from the given object
 
 ## Properties
 
