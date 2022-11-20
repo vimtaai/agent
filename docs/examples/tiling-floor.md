@@ -2,7 +2,7 @@
 title: Tiling Floor
 permalink: /examples/tiling-floor
 parent: Examples
-nav_order: 3
+nav_order: 1
 layout: example
 model: tiling-floor
 ---

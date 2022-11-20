@@ -2,7 +2,7 @@
 title: Game of Life
 permalink: /examples/game-of-life
 parent: Examples
-nav_order: 1
+nav_order: 3
 layout: example
 model: game-of-life
 ---

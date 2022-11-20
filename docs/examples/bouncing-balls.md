@@ -2,9 +2,9 @@
 title: Bouncing balls
 permalink: /examples/bouncing-balls
 parent: Examples
-nav_order: 4
+nav_order: 5
 layout: example
 model: bouncing-balls
 ---
 
-This model simulates balls bouncing in a square box
+This model simulates balls bouncing in a square box.
