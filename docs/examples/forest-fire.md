@@ -3,7 +3,7 @@ title: Forest Fire
 permalink: /examples/forest-fire
 parent: Examples
 nav_order: 2
-layout: model_example
+layout: example
 model: forest-fire
 ---
 
