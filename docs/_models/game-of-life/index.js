@@ -1,7 +1,3 @@
----
-permalink: /examples/models/game-of-life/index.js
----
-
 import { Model, Timer } from "https://vimtaai.github.io/agent/lib/index.js";
 import { Random } from "https://vimtaai.github.io/agent/lib/utils.js";
 

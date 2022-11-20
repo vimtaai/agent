@@ -5,6 +5,11 @@ description: Documentation for Agent JS
 # Paths
 baseurl: /agent
 layouts_dir: docs/_layouts
+includes_dir: docs/_models
+collections_dir: docs
+
+collections:
+  models:
 
 # Theme
 remote_theme: just-the-docs/just-the-docs
