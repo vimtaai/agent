@@ -24,3 +24,7 @@ button {
   @extend .btn-purple;
   @extend .mx-5;
 }
+
+button img {
+  vertical-align: -4px;
+}
