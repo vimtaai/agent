@@ -11,68 +11,68 @@ layout: reference
 ## Constructor
 
 ### **new Model**(width = 50, height = 50, scale = 1)
-Creates a new model and inserts it into the document
+Creates a new Model and inserts it into the document
 
 ## Properties
 
 ### model.**width**: number
-The width of the model in [Fields][field]
+The width of the Model in [Fields][field]
 
 ### model.**height**: number
-The height of the model in [Fields][field]
+The height of the Model in [Fields][field]
 
 ### model.**scale**: number
-The zoom level of the model, the size of a [Fields][field] in pixels
+The zoom level of the Model, the size of a [Fields][field] in pixels
 
 ### model.**fields**: array (read-only)
-The array of [Fields][field] of the model in row-major order
+The array of [Fields][field] of the Model in row-major order
 
 ### model.**agents**: array (read-only)
-The array of [Agents][agent] of the model in the order they were added
+The array of [Agents][agent] of the Model in the order they were added
 
 ### model.**centerX**: number (read-only)
-The X coordinate of the center of the model
+The X coordinate of the center of the Model
 
 ### model.**centerY**: number (read-only)
-The Y coordinate of the center of the model
+The Y coordinate of the center of the Model
 
 ### model.**center**: object (read-only)
-The coordinates of the center of the model in { x, y } format
+The coordinates of the center of the Model in { x, y } format
 
 ### model.**randomX**: number (read-only)
-A random X coordinate of the model
+A random X coordinate of the Model
 
 ### model.**randomY**: number (read-only)
-A random Y coordinate of the model
+A random Y coordinate of the Model
 
 ### model.**randomFieldX**: number (read-only)
-The X coordinate of a random [Field][field] of the model
+The X coordinate of a random [Field][field] of the Model
 
 ### model.**randomFieldY**: number (read-only)
-The Y coordinate of a random [Field][field] of the model
+The Y coordinate of a random [Field][field] of the Model
 
 ### model.**randomField**: [Field][field] (read-only)
-A random [Field][field] of the model
+A random [Field][field] of the Model
 
 ### model.**randomAgent**: [Agent][agent] (read-only)
-A random [Agent][agent] of the model
+A random [Agent][agent] of the Model
 
 ## Methods
 
 ### model.**update()**
-Forces the model to re-render
+Forces the Model to re-render
 
-### model.**addAgent**(agent)
-Adds an [Agent][agent] to the model
+### model.**addAgent**(agent: [Agent][agent])
+Adds an [Agent][agent] to the Model
 
-### model.**removeAgent**(agent)
-Removes an [Agent][agent] from the model
+### model.**removeAgent**(agent: [Agent][agent])
+Removes an [Agent][agent] from the Model
 
 ### model.**clearDrawing()**
-Clears all drawings from the canvas
+Clears all drawings from the Model
 
 ### model.**clearAgents()**
-Removes all [Agents][agent] from the model
+Removes all [Agents][agent] from the Model
 
-[field]: /api/field
-[agent]: /api/agent
+[field]: {{ site.baseurl }}/api/field
+[agent]: {{ site.baseurl }}/api/agent
