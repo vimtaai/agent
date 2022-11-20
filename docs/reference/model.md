@@ -62,6 +62,9 @@ A random [Agent][agent] of the model
 ### model.**update()**
 Forces the model to re-render
 
+### model.**clearDrawing()**
+Clears all drawings from the canvas
+
 ### model.**addAgent**(agent)
 Adds an [Agent][agent] to the model
 
