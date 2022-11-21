@@ -1,5 +1,5 @@
 ---
-title: Model
+title: Model Class
 permalink: /api/model
 parent: API Reference
 nav_order: 1
@@ -7,6 +7,10 @@ layout: reference
 ---
 
 # Model Class
+
+```js
+import { Model } from "https://vimtaai.github.io/agent/lib/index.js";
+```
 
 ## Constructor
 

@@ -1,5 +1,5 @@
 ---
-title: Agent
+title: Agent Class
 permalink: /api/agent
 parent: API Reference
 nav_order: 2
@@ -7,6 +7,10 @@ layout: reference
 ---
 
 # Agent Class
+
+```js
+import { Agent } from "https://vimtaai.github.io/agent/lib/index.js";
+```
 
 ## Constructor
 
@@ -18,7 +22,7 @@ Creates a new Agent, and sets its initial properties from the given object
 ### agent.**x**: number
 The X coordinate of the Agent
 
-### agent.**fieldX**: number
+### agent.**fieldX**: number (read-only)
 The X coordinate of the [Field][field] that the Agent is on
 
 ### agent.**y**: number

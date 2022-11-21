@@ -1,5 +1,5 @@
 ---
-title: Field
+title: Field Class
 permalink: /api/field
 parent: API Reference
 nav_order: 3
