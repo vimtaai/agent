@@ -16,47 +16,64 @@ import { Agent } from "https://vimtaai.github.io/agent/lib/index.js";
 
 ### **new Agent**(properties: object)
 Creates a new Agent, and sets its initial properties from the given object
+#### Example
+```js
+const agent = new Agent({ x: 10, y: 10 });
+```
 
 ## Properties
 
 ### agent.**x**: number
-The X coordinate of the Agent
+The X coordinate of the Agent  
+**Default:** `0`
 
 ### agent.**fieldX**: number (read-only)
-The X coordinate of the [Field][field] that the Agent is on
+The X coordinate of the [Field][field] that the Agent is on  
+**Default:** `0`
 
 ### agent.**y**: number
-The Y coordinate of the Agent
+The Y coordinate of the Agent  
+**Default:** `0`
 
 ### agent.**fieldY**: number (read-only)
-The Y coordinate of the [Field][field] that the Agent is on
+The Y coordinate of the [Field][field] that the Agent is on  
+**Default:** `0`
 
 ### agent.**heading**: number
-The heading the Agent is facing in degrees
+The heading the Agent is facing in degrees, 0 meaning "facing up"  
+**Default:** `0`
 
 ### agent.**size**: number
-The size (scaling factor) of the Agent, *must be positive*
+The size (scaling factor) of the Agent, *must be positive*  
+**Default:** `1`
 
 ### agent.**color**: string
-The fill color of the Agent, *must be a valid [CSS color][color]*
+The fill color of the Agent, *must be a valid [CSS color][color]*  
+**Default:** `"white"`
 
 ### agent.**penColor**: string
-The color of the line the Agent uses to draw its path, *must be a valid [CSS color][color]*
+The color of the line the Agent uses to draw its path, *must be a valid [CSS color][color]*  
+**Default:** `"white"`
 
 ### agent.**penWidth**: string
-The width of the line the Agent uses to draw its path, *must be positive*
+The width of the line the Agent uses to draw its path, *must be positive*  
+**Default:** `2`
 
 ### agent.**isPenDown**: boolean (read-only)
-Returns whether the Agent will draw its path when it moves
+Returns whether the Agent will draw its path when it moves  
+**Default:** `false`
 
 ### agent.**label**: String
-The label that gets displayed above the Agent
+The label that gets displayed above the Agent  
+**Default:** `""`
 
 ### agent.**shape**: Shape
-Reference to the [Shape][shape] class that defines the shape of the Agent
+Reference to the [Shape][shape] class that defines the shape of the Agent  
+**Default:** `Arrow`
 
 ### agent.**model**: [Model][model] (read-only)
-Reference to the [Model][model] that contains the Agent, `null` otherwise
+Reference to the [Model][model] that contains the Agent, `null` otherwise  
+**Default:** `null`
 
 ## Methods
 

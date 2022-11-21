@@ -16,17 +16,24 @@ import { Model } from "https://vimtaai.github.io/agent/lib/index.js";
 
 ### **new Model**(properties: object)
 Creates a new Model, sets its initial properties from the given object, and inserts it into the document
+#### Example
+```js
+const model = new Model({ width: 100, height: 100, scale: 5 });
+```
 
 ## Properties
 
 ### model.**width**: number
-The width of the Model in [Fields][field]
+The width of the Model in [Fields][field]  
+**Default:** `100`
 
 ### model.**height**: number
-The height of the Model in [Fields][field]
+The height of the Model in [Fields][field]  
+**Default:** `100`
 
 ### model.**scale**: number
-The zoom level of the Model, the size of a [Fields][field] in pixels
+The zoom level of the Model, the size of [Fields][field] in pixels  
+**Default:** `5`
 
 ### model.**fields**: array (read-only)
 The array of [Fields][field] of the Model in row-major order

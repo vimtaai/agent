@@ -20,7 +20,7 @@ getRandomBoolean();
 
 ### **getRandomBoolean**([probability: number]): boolean
 Generates a random boolean value which is `true` with the given probability  
-**Defaults**: `probability: 0.5`
+**Default**: `probability: 0.5`
 
 ### **getRandomInteger**(min: number, max: number): number
 Generates a random integer number between the given values (both ends inclusive)
