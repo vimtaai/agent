@@ -14,11 +14,11 @@ function setup() {
 
   for (let i = 0; i < NUMBER_OF_BALLS; i++) {
     const agent = new Agent({ x: model.randomX, y: model.randomY });
-    const color = Random.getColor();
+    const color = Random.getRandomColor();
 
     agent.shape = Circle;
     agent.size = 2;
-    agent.heading = Random.getInteger(0, 360);
+    agent.heading = Random.getRandomInteger(0, 360);
     agent.color = color;
     agent.penColor = color;
     agent.putPenDown();

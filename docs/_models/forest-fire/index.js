@@ -1,7 +1,7 @@
 import { Model, Timer } from "https://vimtaai.github.io/agent/lib/index.js";
 import { Random } from "https://vimtaai.github.io/agent/lib/utils.js";
 
-const EMPTY_FIELD_CHANCE = 0.20;
+const EMPTY_FIELD_CHANCE = 0.2;
 
 const model = new Model({ width: 100, height: 100, scale: 5 });
 const timer = new Timer(step, 20);
@@ -18,10 +18,10 @@ function updateFieldColor(field) {
 
 function setup() {
   for (const field of model.fields) {
-    const isEmpty = Random.getBoolean(EMPTY_FIELD_CHANCE);
+    const isEmpty = Random.getRandomBoolean(EMPTY_FIELD_CHANCE);
 
     field.burnedDown = false;
-    field.vegetation = isEmpty ? 0 : Random.getFloat(0, 1);
+    field.vegetation = isEmpty ? 0 : Random.getRandomFloat(0, 1);
     field.fire = 0;
 
     updateFieldColor(field);
@@ -44,7 +44,7 @@ function step() {
     for (const neighbor of neighborsNotOnFire) {
       const chanceToCatchFire = fieldOnFire.fire * neighbor.vegetation;
 
-      if (Random.getBoolean(chanceToCatchFire)) {
+      if (Random.getRandomBoolean(chanceToCatchFire)) {
         neighbor.fire = neighbor.vegetation;
         updateFieldColor(neighbor);
       }

@@ -8,7 +8,7 @@ const timer = new Timer(step, 20);
 
 function setup() {
   for (const field of model.fields) {
-    field.isAlive = Random.getBoolean(INITIAL_DENSITY);
+    field.isAlive = Random.getRandomBoolean(INITIAL_DENSITY);
     field.color = field.isAlive ? "white" : "black";
   }
 }
