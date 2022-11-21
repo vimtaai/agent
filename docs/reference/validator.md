@@ -2,7 +2,7 @@
 title: Validator Utilities
 permalink: /api/validator
 parent: API Reference
-nav_order: 5
+nav_order: 13
 layout: reference
 ---
 
