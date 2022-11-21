@@ -18,7 +18,7 @@ function setup() {
 
     agent.shape = Circle;
     agent.size = 2;
-    agent.heading = Random.getRandomInteger(0, 360);
+    agent.heading = Random.getRandomHeading();
     agent.color = color;
     agent.penColor = color;
     agent.putPenDown();

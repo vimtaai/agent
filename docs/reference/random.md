@@ -31,4 +31,7 @@ Generates a random real number between the given values (both ends inclusive)
 ### **getRandomColor**(): string
 Generates a random [CSS color][color] in the `rgb(r, g, b)` format
 
+### **getRandomHeading**(): string
+Generates a random heading, a number between 0 (inclusive) and 360 (exclusive)
+
 [color]: https://developer.mozilla.org/en-US/docs/Web/CSS/color_value
