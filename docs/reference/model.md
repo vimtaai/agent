@@ -16,10 +16,14 @@ import { Model } from "https://vimtaai.github.io/agent/lib/index.js";
 
 ### **new Model**(properties: object)
 Creates a new Model, sets its initial properties from the given object, and inserts it into the document
+
 #### Example
 ```js
 const model = new Model({ width: 100, height: 100, scale: 5 });
 ```
+
+{: .callout.important }
+When creating a new Model, it will be automatically inserted into the end of the document. If you want to insert your Model to another element, pass the reference to the desired parent element in `parentElement` field of the `properties` argument.
 
 ## Properties
 
