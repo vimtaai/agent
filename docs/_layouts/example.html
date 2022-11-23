@@ -19,7 +19,7 @@ layout: default
     src="{{ site.baseurl }}/models/{{ page.model }}/index.html"
   ></iframe>
   <figcaption>
-    {{ page.title }}<br>
+    {{ page.title }}<br />
     <a href="{{ site.baseurl }}/models/{{ page.model }}/index.html">
       Full-page example
     </a>
@@ -28,6 +28,5 @@ layout: default
 
 <h2>Source Code</h2>
 
-{% highlight js %}
-{% include {{ page.model }}/index.js %}
-{% endhighlight %}
+{% highlight js %} {% include _models/{{ page.model }}/index.js %} {%
+endhighlight %}
