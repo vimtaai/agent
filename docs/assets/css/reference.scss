@@ -11,7 +11,7 @@ permalink: /api/reference.css
 }
 
 .main-content h4,
-.main-content h3 ~ p,
+.main-content h3 ~ p:not(.callout),
 .main-content h3 ~ div {
   margin: 0 $sp-3;
 }
@@ -21,7 +21,7 @@ permalink: /api/reference.css
   margin-bottom: -$sp-2;
 }
 
-.main-content h3 ~ p {
+.main-content h3 ~ p{
   padding-bottom: $sp-2;
 }
 
