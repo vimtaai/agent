@@ -16,6 +16,7 @@ import { Agent } from "https://vimtaai.github.io/agent/lib/index.js";
 
 ### **new Agent**(properties: object)
 Creates a new Agent, and sets its initial properties from the given object
+
 #### Example
 ```js
 const agent = new Agent({ x: 10, y: 10 });
