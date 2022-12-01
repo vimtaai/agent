@@ -1,4 +1,4 @@
-import { Model, Timer } from "https://vimtaai.github.io/agent/lib/index.js";
+import { Model, Agent, Timer } from "https://vimtaai.github.io/agent/lib/index.js";
 import { Random } from "https://vimtaai.github.io/agent/lib/utils.js";
 import { Circle } from "https://vimtaai.github.io/agent/lib/shapes.js";
 
