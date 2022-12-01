@@ -2,7 +2,7 @@
 title: Solar system
 permalink: /examples/solar-system
 parent: Examples
-nav_order: 5
+nav_order: 6
 layout: example
 model: solar-system
 ---

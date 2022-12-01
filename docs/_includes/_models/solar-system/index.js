@@ -33,6 +33,7 @@ function setup() {
   model.clearAgents();
 
   sun = new Agent({
+    label: "Sun",
     x: model.centerX,
     y: model.centerY,
     size: 10,
@@ -41,6 +42,7 @@ function setup() {
   });
 
   earth = new Planet({
+    label: "Earth",
     centerX: model.centerX,
     centerY: model.centerY,
     size: 2,
@@ -52,6 +54,7 @@ function setup() {
   earth.updatePosition();
 
   moon = new Planet({
+    label: "Moon",
     centerX: earth.x,
     centerY: earth.y,
     size: 1,
