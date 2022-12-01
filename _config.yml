@@ -24,3 +24,9 @@ callouts:
   important:
     title: Important
     color: blue
+
+aux_links:
+  "Contact":
+    - "mailto:vimtaai@inf.elte.hu?subject=Agent%20JS"
+  "GitHub":
+    - "https://github.com/vimtaai/agent"
