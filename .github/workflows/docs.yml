@@ -26,6 +26,9 @@ jobs:
       - name: Build documentation
         run: npm run docs:build
 
+      - name: Add library to documentation
+        run: cp -r lib docs/build/
+
       - name: Upload Build Artifact
         uses: actions/upload-pages-artifact@v3
         with:
