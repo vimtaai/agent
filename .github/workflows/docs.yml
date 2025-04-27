@@ -18,8 +18,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 18
-          cache: yarn
+          node-version: lts
 
       - name: Install dependencies
         run: npm ci
