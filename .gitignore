@@ -1,6 +1,12 @@
-# Local build
-Gemfile.lock
-_site
-
 # Editor config
 .vscode
+
+# Dependencies
+node_modules
+
+# Production
+build
+
+# Generated files
+.docusaurus
+.cache-loader

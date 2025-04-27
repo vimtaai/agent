@@ -1,0 +1,12 @@
+figure {
+  background: var(--ifm-code-background);
+  border-radius: var(--ifm-code-border-radius);
+  margin: 0;
+  padding-block: var(--ifm-code-padding-vertical);
+
+  figcaption {
+    font-weight: var(--ifm-font-weight-bold);
+    text-align: center;
+    padding-bottom: var(--ifm-spacing-vertical);
+  }
+}
