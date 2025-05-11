@@ -64,6 +64,7 @@ function setup() {
     speed: 5
   });
   moon.updatePosition();
+  moon.putPenDown();
 
   model.addAgent(sun);
   model.addAgent(earth);
