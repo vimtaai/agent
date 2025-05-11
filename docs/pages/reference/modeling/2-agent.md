@@ -38,6 +38,10 @@ The Y coordinate of the Agent
 The Y coordinate of the [Field][field] that the Agent is on  
 **Default:** `0`
 
+### `agent.moveTo(x: number, y: number)`
+
+Moves the Agent to the specified `x` and `y` coordinates  
+
 ### `agent.heading: number`
 
 The heading the Agent is facing in degrees, 0 meaning "facing up"  
