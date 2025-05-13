@@ -10,6 +10,10 @@ validateNumber(5);
 
 ## Functions
 
+### `validateBoolean(value: any)`
+
+Validates if the given value is a boolean, throws an error if it is not
+
 ### `validateNumber(value: any)`
 
 Validates if the given value is a number, throws an error if it is not
