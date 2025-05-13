@@ -37,6 +37,16 @@ The height of the Model in [Fields][field]
 The zoom level of the Model, the size of [Fields][field] in pixels  
 **Default:** `5`
 
+### `model.wrapHorizontal: boolean`
+
+Whether the model wraps horizontally  
+**Default:** `false`
+
+### `model.wrapVertical: boolean`
+
+Whether the model wraps vertically  
+**Default:** `false`
+
 ### `model.fields: array` (read-only)
 
 The array of [Fields][field] of the Model in row-major order
