@@ -24,27 +24,32 @@ When creating a new Model, it will be automatically inserted into the end of the
 
 ### `model.width: number`
 
-The width of the Model in [Fields][field]  
+The width of the Model in [Fields][field]
+
 **Default:** `100`
 
 ### `model.height: number`
 
-The height of the Model in [Fields][field]  
+The height of the Model in [Fields][field]
+
 **Default:** `100`
 
 ### `model.scale: number`
 
-The zoom level of the Model, the size of [Fields][field] in pixels  
+The zoom level of the Model, the size of [Fields][field] in pixels
+
 **Default:** `5`
 
 ### `model.wrapHorizontal: boolean`
 
-Whether the model wraps horizontally  
+Whether the model wraps horizontally
+
 **Default:** `false`
 
 ### `model.wrapVertical: boolean`
 
-Whether the model wraps vertically  
+Whether the model wraps vertically
+
 **Default:** `false`
 
 ### `model.fields: array` (read-only)
@@ -112,6 +117,22 @@ Clears all drawings from the Model
 ### `model.clearAgents()`
 
 Removes all [Agents][agent] from the Model
+
+## Events
+
+### `agentclick`
+
+Fires an `AgentEvent` when an Agent is clicked
+
+- `AgentEvent.target`: the `Agent` object that was clicked
+- `AgentEvent.agent`: the `AgentEvent` that was clicked
+
+### `fieldclick`
+
+Fires an `FieldEvent` when a Field is clicked
+
+- `FieldEvent.target`: the `Field` object that was clicked
+- `FieldEvent.field`: the `FieldEvent` that was clicked
 
 [field]: /api/field
 [agent]: /api/agent

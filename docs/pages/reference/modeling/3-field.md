@@ -22,4 +22,13 @@ The array of the up to 8 neighboring Fields
 
 The array Fields within the given radius, `radius` must be positive
 
+## Events
+
+### `click`
+
+Fires an `FieldEvent` when the Field is clicked
+
+- `FieldEvent.target`: the `Field` object that was clicked
+- `FieldEvent.field`: the `FieldEvent` that was clicked
+
 [color]: https://developer.mozilla.org/en-US/docs/Web/CSS/color_value
