@@ -87,6 +87,10 @@ Reference to the [Shape][shape] class that defines the shape of the Agent
 Reference to the [Model][model] that contains the Agent, `null` otherwise  
 **Default:** `null`
 
+### `agent.isOutOfModel: boolean` (read-only)
+
+Returns wether the Agent is within the bounds of the Model  
+
 ## Methods
 
 ### `agent.forward(amount: number)`
