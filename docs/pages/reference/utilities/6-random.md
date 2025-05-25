@@ -1,7 +1,7 @@
 # Random Utilities
 
 ```js
-import { Random } from "https://vimtaai.github.io/agent/lib/utils.js"
+import { Random } from "https://vimtaai.github.io/agent/lib/index.js"
 Random.getRandomBoolean();
 // -- OR --
 import { getRandomBoolean } from "https://vimtaai.github.io/agent/lib/utils.js";

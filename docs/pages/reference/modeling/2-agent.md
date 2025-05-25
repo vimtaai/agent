@@ -90,7 +90,7 @@ The label that gets displayed above the `Agent`.
 
 ### `agent.shape: Shape`
 
-Reference to the [`Shape`][shape] class that defines the shape of the `Agent`.
+Reference to the [shape][shape] shape descriptor of the `Agent`.
 
 **Default:** `Arrow`
 
@@ -143,7 +143,7 @@ Fires an `AgentEvent` when the Agent is clicked.
 - `AgentEvent.target`: the `Agent` object that was clicked.
 - `AgentEvent.agent`: the `AgentEvent` that was clicked.
 
-[model]: /api/model
-[field]: /api/field
-[shape]: /api/shape
+[model]: /reference/modeling/model
+[field]: /reference/modeling/field
+[shape]: /reference/modeling/shapes
 [color]: https://developer.mozilla.org/en-US/docs/Web/CSS/color_value

@@ -1,7 +1,7 @@
 # Validator Utilities
 
 ```js
-import { Validator } from "https://vimtaai.github.io/agent/lib/utils.js"
+import { Validator } from "https://vimtaai.github.io/agent/lib/index.js"
 Validator.validateNumber(5);
 // -- OR --
 import { validateNumber } from "https://vimtaai.github.io/agent/lib/utils.js";
@@ -54,11 +54,11 @@ Validates if the given `value` is an `Entity` ([`Agent`][agent] or [`Field`][fie
 
 ### `validateShape(value: any)`
 
-Validates if the given `value` is a [`Shape`][shape], throws an error if it is not.
+Validates if the given `value` is a valid [shape][shape], throws an error if it is not.
 
-[model]: /api/model
-[agent]: /api/agent
-[field]: /api/field
-[shape]: /api/shape
+[model]: /reference/modeling/model
+[field]: /reference/modeling/field
+[agent]: /reference/modeling/agent
+[shape]: /reference/modeling/shapes
 [color]: https://developer.mozilla.org/en-US/docs/Web/CSS/color_value
 [error]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error

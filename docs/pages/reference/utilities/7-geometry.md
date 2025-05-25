@@ -1,7 +1,7 @@
 # Geometry Utilities
 
 ```js
-import { Geometry } from "https://vimtaai.github.io/agent/lib/utils.js"
+import { Geometry } from "https://vimtaai.github.io/agent/lib/index.js"
 Geometry.convertDegreesToRadians(30);
 // -- OR --
 import { convertDegreesToRadians } from "https://vimtaai.github.io/agent/lib/utils.js";
