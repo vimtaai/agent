@@ -39,6 +39,9 @@ const config = {
         { label: "GitHub", href: "https://github.com/vimtaai/agent", position: "right" },
       ]
     },
+    tableOfContents: {
+      maxHeadingLevel: 2
+    },
     prism: { theme: prismThemes.github, darkTheme: prismThemes.dracula },
   },
 };

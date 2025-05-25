@@ -8,7 +8,7 @@ import { Timer } from "https://vimtaai.github.io/agent/lib/index.js";
 
 ### `new Timer(tickFunction: function, tickInterval: number)`
 
-Creates a new Timer that can run the specified `tickFunction` every `tickInterval` seconds.  
+Creates a new `Timer` that can run the specified `tickFunction` every `tickInterval` seconds.
 
 #### Example
 
@@ -22,35 +22,40 @@ const timer = new Timer(step, 100);
 
 ### `timer.tickFunction: function`
 
-The function the timer runs
+The function the `Timer` runs.
 
 ### `timer.tickInterval: number`
 
-The interval in milliseconds to run the function  
+The interval in milliseconds to run the `tickFunction`.
+
 **Default:** `100`
 
-### `timer.tickCount: number` (read-only)
+### `timer.tickCount: number` <span className="badge badge--primary">read-only</span>
 
-The number of function runs since the creation of the Timer
+The number of runs the `tickFunction` since the creation of the `Timer`.
 
-### `timer.isRunning: boolean` (read-only)
+### `timer.isRunning: boolean` <span className="badge badge--primary">read-only</span>
 
-Tells whether the Timer is currently running or not
+Tells whether the `Timer` is currently running or not.
 
 ## Methods
 
 ### `timer.tick()`
 
-Runs the specified `tickFunction` once
+Runs the specified `tickFunction` once.
 
 ### `timer.resetTicks()`
 
-Resets the `tickCount` to `0`
+Resets the `tickCount` to `0`.
 
 ### `timer.start()`
 
-Starts the Timer
+Starts the `Timer`.
 
 ### `timer.stop()`
 
-Stops the Timer
+Stops the `Timer`.
+
+### `timer.toggle()`
+
+Toggles the `Timer`. Stops if running, starts if not.

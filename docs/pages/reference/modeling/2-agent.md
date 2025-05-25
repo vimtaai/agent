@@ -8,7 +8,7 @@ import { Agent } from "https://vimtaai.github.io/agent/lib/index.js";
 
 ### `new Agent(properties: object)`
 
-Creates a new Agent, and sets its initial properties from the given object
+Creates a new `Agent`, and sets its initial properties from the given object.
 
 #### Example
 
@@ -20,128 +20,128 @@ const agent = new Agent({ x: 10, y: 10 });
 
 ### `agent.x: number`
 
-The X coordinate of the Agent
+The X coordinate of the `Agent`.
 
 **Default:** `0`
 
-### `agent.fieldX: number` (read-only)
+### `agent.fieldX: number` <span className="badge badge--primary">read-only</span>
 
-The X coordinate of the [Field][field] that the Agent is on
+The X coordinate of the [Field][field] that the `Agent` is on.
 
 **Default:** `0`
 
 ### `agent.y: number`
 
-The Y coordinate of the Agent
+The Y coordinate of the `Agent`.
 
 **Default:** `0`
 
-### `agent.fieldY: number` (read-only)
+### `agent.fieldY: number` <span className="badge badge--primary">read-only</span>
 
-The Y coordinate of the [Field][field] that the Agent is on
+The Y coordinate of the [Field][field] that the `Agent` is on
 
 **Default:** `0`
 
 ### `agent.moveTo(x: number, y: number)`
 
-Moves the Agent to the specified `x` and `y` coordinates  
+Moves the `Agent` to the specified `x` and `y` coordinates.
 
 ### `agent.heading: number`
 
-The heading the Agent is facing in degrees, 0 meaning "facing up"
+The heading the `Agent` is facing in degrees, 0 meaning "facing down".
 
 **Default:** `0`
 
 ### `agent.size: number`
 
-The size (scaling factor) of the Agent, *must be positive*
+The size (scaling factor) of the `Agent`, *must be positive*.
 
 **Default:** `1`
 
 ### `agent.color: string`
 
-The fill color of the Agent, *must be a valid [CSS color][color]*
+The fill color of the `Agent`, *must be a valid [CSS color][color]*.
 
 **Default:** `"white"`
 
 ### `agent.penColor: string`
 
-The color of the line the Agent uses to draw its path, *must be a valid [CSS color][color]*
+The color of the line the `Agent` uses to draw its path, *must be a valid [CSS color][color]*.
 
 **Default:** `"white"`
 
 ### `agent.penWidth: string`
 
-The width of the line the Agent uses to draw its path, *must be positive*
+The width of the line the `Agent` uses to draw its path, *must be positive*.
 
 **Default:** `2`
 
-### `agent.isPenDown: boolean` (read-only)
+### `agent.isPenDown: boolean` <span className="badge badge--primary">read-only</span>
 
-Returns whether the Agent will draw its path when it moves
+Returns whether the `Agent` will draw its path when it moves.
 
 **Default:** `false`
 
 ### `agent.label: string`
 
-The label that gets displayed above the Agent
+The label that gets displayed above the `Agent`.
 
 **Default:** `""`
 
 ### `agent.shape: Shape`
 
-Reference to the [Shape][shape] class that defines the shape of the Agent
+Reference to the [`Shape`][shape] class that defines the shape of the `Agent`.
 
 **Default:** `Arrow`
 
-### `agent.model: Model` (read-only)
+### `agent.model: Model` <span className="badge badge--primary">read-only</span>
 
-Reference to the [Model][model] that contains the Agent, `null` otherwise
+Reference to the [`Model`][model] that contains the Agent, `null` otherwise.
 
 **Default:** `null`
 
-### `agent.isOutOfModel: boolean` (read-only)
+### `agent.isOutOfModel: boolean` <span className="badge badge--primary">read-only</span>
 
-Returns wether the Agent is within the bounds of the Model
+Returns wether the `Agent` is within the bounds of the [`Model`][model].
 
 ## Methods
 
 ### `agent.forward(amount: number)`
 
-Moves the Agent forward with the given amount in the direction it is facing
+Moves the `Agent` forward with the given amount in the direction it is facing.
 
 ### `agent.back(amount: number)`
 
-Moves the Agent back with the given amount in the opposite direction it is facing
+Moves the Agent back with the given amount in the opposite direction it is facing.
 
 ### `agent.left(amount: number)`
 
-Turns the facing of the Agent left (counter-clockwise) with the given amount of degrees
+Turns the facing of the `Agent` left (counter-clockwise) with the given amount of degrees
 
 ### `agent.right(amount: number)`
 
-Turns the facing of the Agent right (clockwise) with the given amount of degrees
+Turns the facing of the `Agent` right (clockwise) with the given amount of degrees.
 
 ### `agent.face(target: Agent | Field)`
 
-Turns the facing of the Agent right (clockwise) with the given amount of degrees
+Turns the facing of the `Agent` right (clockwise) with the given amount of degrees.
 
 ### `agent.putPenDown()`
 
-Puts the pen down, the Agent will draw its path when it moves
+Puts the pen down, the `Agent` will draw its path when it moves.
 
 ### `agent.pickPenUp()`
 
-Picks the pen up, the Agent will no longer draw its path when it moves
+Picks the pen up, the `Agent` will no longer draw its path when it moves.
 
 ## Events
 
 ### `click`
 
-Fires an `AgentEvent` when the Agent is clicked
+Fires an `AgentEvent` when the Agent is clicked.
 
-- `AgentEvent.target`: the `Agent` object that was clicked
-- `AgentEvent.agent`: the `AgentEvent` that was clicked
+- `AgentEvent.target`: the `Agent` object that was clicked.
+- `AgentEvent.agent`: the `AgentEvent` that was clicked.
 
 [model]: /api/model
 [field]: /api/field

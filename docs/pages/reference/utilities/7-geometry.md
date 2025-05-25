@@ -12,8 +12,8 @@ convertDegreesToRadians(30);
 
 ### `convertDegreesToRadians(angleInDegrees: number)`
 
-Converts the given angle in degrees to radians
+Converts the given angle in degrees to radians.
 
 ### `convertRadiansToDegrees(angleInRadians: number)`
 
-Converts the given angle in radians to degrees
+Converts the given angle in radians to degrees.
