@@ -14,9 +14,10 @@ function reset() {
   model.clearDrawing();
 
   agent.size = 3;
-  agent.putPenDown();
   agent.x = model.centerX;
   agent.y = model.height;
+  agent.heading = 180;
+  agent.putPenDown();
 }
 
 function drawTree(length, angle, levels) {
