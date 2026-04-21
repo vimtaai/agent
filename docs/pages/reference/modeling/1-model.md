@@ -109,7 +109,7 @@ Forces the `Model` to re-render.
 
 ### `model.addAgent(agent: Agent)`
 
-Adds an [`Agent`][agent] to the Model.
+Adds an [`Agent`][agent] to the Model. The `Agent` will automatically be moved to the center of the `Model`.
 
 ### `model.removeAgent(agent: Agent)`
 

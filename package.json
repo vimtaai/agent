@@ -2,7 +2,7 @@
   "name": "agent",
   "version": "1.0.0",
   "description": "Agent-based modelling in JavaScript",
-  "author": "Márton Visnovitz <visnovitz.marton@gmail.com>",
+  "author": "Márton Visnovitz <vimtaai@pm.me>",
   "license": "CC-BY-NC-SA-4.0",
   "scripts": {
     "docs:serve": "docusaurus start docs",
