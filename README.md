@@ -1,7 +1,7 @@
 # Agent JS
 
-> Agent-based modelling in JavaScript
+> Agent-based modeling in JavaScript
 
-Agent JS is an agent-based modelling library in JavaScript for educational purposes.
+Agent JS is an agent-based modeling library in JavaScript for educational purposes.
 
 For guides on usage and documentation visit https://vimtaai.github.io/agent.

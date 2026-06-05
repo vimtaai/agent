@@ -1,11 +1,11 @@
 # Geometry Utilities
 
 ```js
-import { Geometry } from "https://vimtaai.github.io/agent/lib/index.js"
-Geometry.convertDegreesToRadians(30);
+import { Geometry } from "//packages.education/agent"
+// Usage: Geometry.convertDegreesToRadians(30);
 // -- OR --
-import { convertDegreesToRadians } from "https://vimtaai.github.io/agent/lib/utils.js";
-convertDegreesToRadians(30);
+import { convertDegreesToRadians } from "//packages.education/agent/utils.js";
+// Usage: convertDegreesToRadians(30);
 ```
 
 ## Functions

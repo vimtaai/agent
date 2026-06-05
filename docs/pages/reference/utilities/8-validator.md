@@ -1,11 +1,11 @@
 # Validator Utilities
 
 ```js
-import { Validator } from "https://vimtaai.github.io/agent/lib/index.js"
-Validator.validateNumber(5);
+import { Validator } from "//packages.education/agent"
+// Usage: Validator.validateNumber(5);
 // -- OR --
-import { validateNumber } from "https://vimtaai.github.io/agent/lib/utils.js";
-validateNumber(5);
+import { validateNumber } from "//packages.education/agent/utils.js";
+// Usage: validateNumber(5);
 ```
 
 Validator function can be used to validate the type and value of inputs. If the given value is invalid, validator functions will throw an [`Error`][error].

@@ -1,16 +1,16 @@
 # Getting started
 
-To start using Agent JS you just must import the core classes of the library. Agent JS is currently hosted on [GitHub][github]. You can either directly import from there, or clone the Agent JS repository and import the necessary files locally.
+To start using Agent JS you just must import the core classes of the library. Agent JS is hosted on [GitHub][github]. You can either directly import from there, or clone the Agent JS repository and import the necessary files locally.
 
-Agent JS exports as a [JavaScript Module][module] so you have to specify the `type="module"` attribute for your JavaScript script include.
+Agent JS exports as a [JavaScript Module][module] so you have to specify the `type="module"` attribute for the `<script>` element in order to import it.
 
 ```html
 <script type="module">
-  import { Model, Agent } from "https://vimtaai.github.io/agent/lib/index.js";
+  import { Model, Agent } from "//packages.education/agent";
 </script>
 ```
 
-[github]: https://vimtaai.github.io/agent/lib
+[github]: https://github.com/vimtaai/agent
 [module]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules
 
 ## Single-agent drawing
@@ -24,7 +24,7 @@ const agent = new Agent();
 model.addAgent(agent);
 ```
 
-After adding the agent you can call its methods to make it move around the model. To see it's path you have to call the `.putPenDown()` method of the Agent.
+After adding the agent you can call its methods to make it move around the model. To see its path you have to call the `.putPenDown()` method of the Agent.
 
 #### Example
 

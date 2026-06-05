@@ -1,7 +1,7 @@
 # Canvas Class
 
 ```js
-import { Canvas } from "https://vimtaai.github.io/agent/lib/index.js";
+import { Canvas } from "//packages.education/agent";
 ```
 
 ## Constructor
@@ -24,20 +24,17 @@ When creating a new `Canvas`, it will be automatically inserted into the end of 
 
 ### `canvas.width: number`
 
-The width of the `Canvas` in pixels.
-
+The width of the `Canvas` in pixels.  
 **Default:** `300`
 
 ### `canvas.height: number`
 
-The height of the `Canvas` in pixels.
-
+The height of the `Canvas` in pixels.  
 **Default:** `200`
 
 ### `canvas.autoSize: boolean`
 
-If `true`, the Canvas will automatically resize itself to fit its parent element.
-
+If `true`, the Canvas will automatically resize itself to fit its parent element.  
 **Default:** `false`
 
 ## Methods

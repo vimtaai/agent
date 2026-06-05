@@ -1,11 +1,11 @@
 # Random Utilities
 
 ```js
-import { Random } from "https://vimtaai.github.io/agent/lib/index.js"
-Random.getRandomBoolean();
+import { Random } from "//packages.education/agent"
+// Usage: Random.getRandomBoolean();
 // -- OR --
-import { getRandomBoolean } from "https://vimtaai.github.io/agent/lib/utils.js";
-getRandomBoolean();
+import { getRandomBoolean } from "//packages.education/agent/utils.js";
+// Usage: getRandomBoolean();
 ```
 
 ## Functions

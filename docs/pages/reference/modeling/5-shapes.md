@@ -1,11 +1,11 @@
 # Shapes
 
 ```js
-import { Shapes } from "https://vimtaai.github.io/agent/lib/index.js"
-Shapes.Arrow;
+import { Shapes } from "//packages.education/agent"
+// Usage: Shapes.Arrow;
 // -- OR --
-import { Arrow } from "https://vimtaai.github.io/agent/lib/shapes.js";
-Arrow;
+import { Arrow } from "//packages.education/agent/shapes.js";
+// Usage: Arrow;
 ```
 
 ## Shapes

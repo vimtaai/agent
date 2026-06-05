@@ -1,9 +1,9 @@
 import { themes as prismThemes } from "prism-react-renderer";
 
 /** @type {import("@docusaurus/types").Config} */
-const config = {
+export default {
   title: "Agent JS",
-  tagline: "Agent-based modelling in JavaScript",
+  tagline: "Agent-based modeling in JavaScript",
   favicon: "img/favicon.ico",
 
   url: "https://vimtaai.github.io",
@@ -39,11 +39,16 @@ const config = {
         { label: "GitHub", href: "https://github.com/vimtaai/agent", position: "right" },
       ]
     },
-    tableOfContents: {
-      maxHeadingLevel: 2
+
+    announcementBar: {
+      id: "announcement_bar",
+      content: "Agent JS is now available via the //packages.education/agent url.",
+      backgroundColor: "var(--ifm-color-primary)",
+      textColor: "var(--ifm-color-content-inverse)",
     },
+
+    tableOfContents: { maxHeadingLevel: 2 },
+
     prism: { theme: prismThemes.github, darkTheme: prismThemes.dracula },
   },
 };
-
-export default config;

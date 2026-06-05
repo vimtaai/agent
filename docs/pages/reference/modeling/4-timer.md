@@ -1,14 +1,14 @@
 # Timer Class
 
 ```js
-import { Timer } from "https://vimtaai.github.io/agent/lib/index.js";
+import { Timer } from "//packages.education/agent";
 ```
 
 ## Constructor
 
 ### `new Timer(tickFunction: function, tickInterval: number)`
 
-Creates a new `Timer` that can run the specified `tickFunction` every `tickInterval` seconds.
+Creates a new `Timer` that can run the specified `tickFunction` every `tickInterval` milliseconds.
 
 #### Example
 
@@ -26,8 +26,7 @@ The function the `Timer` runs.
 
 ### `timer.tickInterval: number`
 
-The interval in milliseconds to run the `tickFunction`.
-
+The interval in milliseconds to run the `tickFunction`.  
 **Default:** `100`
 
 ### `timer.tickCount: number` <span className="badge badge--primary">read-only</span>

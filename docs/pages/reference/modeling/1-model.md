@@ -1,7 +1,7 @@
 # Model Class
 
 ```js
-import { Model } from "https://vimtaai.github.io/agent/lib/index.js";
+import { Model } from "//packages.education/agent";
 ```
 
 The `Model` class represents a multi-agent model, or a simulation. A `Model` contains [`Field`][field] objects in a grid and  [`Agent`][agent] objects can be added to them. Updating the properties of `Field` and `Agent` object within a model with a [`Timer`][timer] object can be used to create a simulation.
@@ -29,32 +29,27 @@ When creating a new `Model`, it will be automatically inserted into the end of t
 
 ### `model.width: number`
 
-The width of the `Model` in [`Field`][field] units.
-
+The width of the `Model` in [`Field`][field] units.  
 **Default:** `100`
 
 ### `model.height: number`
 
-The height of the `Model` in [`Field`][field] units.
-
+The height of the `Model` in [`Field`][field] units.  
 **Default:** `100`
 
 ### `model.scale: number`
 
-The zoom level of the `Model`, the size of a [`Field`][field] in pixels.
-
+The zoom level of the `Model`, the size of a [`Field`][field] in pixels.  
 **Default:** `5`
 
 ### `model.wrapHorizontal: boolean`
 
-Whether the `Model` wraps horizontally.
-
+Whether the `Model` wraps horizontally.  
 **Default:** `false`
 
 ### `model.wrapVertical: boolean`
 
-Whether the `Model` wraps vertically.
-
+Whether the `Model` wraps vertically.  
 **Default:** `false`
 
 ### `model.fields: array` <span className="badge badge--primary">read-only</span>
@@ -134,7 +129,7 @@ Fires an `AgentEvent` when an [`Agent`][agent] is clicked.
 
 ### `fieldclick`
 
-Fires an `FieldEvent` when a Field is clicked.
+Fires a `FieldEvent` when a Field is clicked.
 
 - `FieldEvent.target`: the `Field` object that was clicked.
 - `FieldEvent.field`: the `FieldEvent` that was clicked.
