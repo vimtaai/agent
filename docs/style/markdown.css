@@ -1,0 +1,26 @@
+.markdown {
+	h1 {
+		font-size: 2rem;
+		font-weight: 900;
+	}
+
+	h2 {
+		font-size: 1rem;
+		font-weight: 700;
+		margin-block: 2rem 1.5rem;
+	}
+
+	h3 {
+		font-size: 1rem;
+		font-weight: 500;
+		margin-block: 2rem 0.5rem;
+
+		code {
+			color: var(--ifm-color-primary);
+		}
+	}
+
+	p {
+		margin-block: 0 1rem;
+	}
+}

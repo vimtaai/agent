@@ -1,12 +1,5 @@
-figure {
-  background: var(--ifm-code-background);
-  border-radius: var(--ifm-code-border-radius);
-  margin: 0;
-  padding-block: var(--ifm-code-padding-vertical);
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap");
 
-  figcaption {
-    font-weight: var(--ifm-font-weight-bold);
-    text-align: center;
-    padding-bottom: var(--ifm-spacing-vertical);
-  }
-}
+@import url("config.css");
+@import url("markdown.css");
+@import url("elements.css");

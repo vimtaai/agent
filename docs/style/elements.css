@@ -1,0 +1,35 @@
+html {
+	overflow-y: scroll;
+}
+
+figure {
+	background: var(--ifm-code-background);
+	border-radius: var(--ifm-code-border-radius);
+	margin: 0;
+	padding-block: var(--ifm-code-padding-vertical);
+
+	figcaption {
+		font-weight: var(--ifm-font-weight-bold);
+		text-align: center;
+		padding-bottom: var(--ifm-spacing-vertical);
+	}
+}
+
+.navbar {
+	--ifm-background-color: var(--background);
+}
+
+.badge {
+	--ifm-badge-color: var(--ifm-font-color-base);
+	--ifm-badge-background-color: transparent;
+	--ifm-badge-border-color: var(--cyan);
+}
+
+.table-of-contents {
+	font-size: 1rem;
+}
+
+.tabs__item {
+	padding: 0.25rem 0.5rem;
+	margin-inline-end: 1rem;
+}

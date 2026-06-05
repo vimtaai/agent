@@ -1,0 +1,85 @@
+:root {
+	--light-background: #eff1f5;
+	--light-bright-black: #6c6f85;
+	--light-bright-blue: #456eff;
+	--light-bright-cyan: #2d9fa8;
+	--light-bright-green: #49af3d;
+	--light-bright-magenta: #fe85d8;
+	--light-bright-red: #de293e;
+	--light-bright-white: #bcc0cc;
+	--light-bright-yellow: #eea02d;
+	--light-black: #5c5f77;
+	--light-blue: #1e66f5;
+	--light-cyan: #179299;
+	--light-green: #40a02b;
+	--light-magenta: #ea76cb;
+	--light-red: #d20f39;
+	--light-white: #acb0be;
+	--light-yellow: #df8e1d;
+
+	--dark-background: #1e1e2e;
+	--dark-bright-black: #585b70;
+	--dark-bright-blue: #74a8fc;
+	--dark-bright-cyan: #6bd7ca;
+	--dark-bright-green: #89d88b;
+	--dark-bright-magenta: #f2aede;
+	--dark-bright-red: #f37799;
+	--dark-bright-white: #bac2de;
+	--dark-bright-yellow: #ebd391;
+	--dark-black: #45475a;
+	--dark-blue: #89b4fa;
+	--dark-cyan: #94e2d5;
+	--dark-green: #a6e3a1;
+	--dark-magenta: #f5c2e7;
+	--dark-red: #f38ba8;
+	--dark-white: #a6adc8;
+	--dark-yellow: #f9e2af;
+
+	--ifm-background-color: var(--background);
+	--ifm-color-primary: var(--yellow);
+	--ifm-font-family-base: "Source Code Pro", Courier, monospace;
+	--ifm-font-size-base: 14px;
+	--ifm-font-family-monospace: "Source Code Pro", Courier, monospace;
+	--ifm-code-font-size: 1rem;
+	--ifm-leading: calc(0.5 * 1rem);
+}
+
+html[data-theme="dark"] {
+	--background: var(--dark-background);
+	--bright-black: var(--dark-bright-black);
+	--bright-blue: var(--dark-bright-blue);
+	--bright-cyan: var(--dark-bright-cyan);
+	--bright-green: var(--dark-bright-green);
+	--bright-magenta: var(--dark-bright-magenta);
+	--bright-red: var(--dark-bright-red);
+	--bright-white: var(--dark-bright-white);
+	--bright-yellow: var(--dark-bright-yellow);
+	--black: var(--dark-black);
+	--blue: var(--dark-blue);
+	--cyan: var(--dark-cyan);
+	--green: var(--dark-green);
+	--magenta: var(--dark-magenta);
+	--red: var(--dark-red);
+	--white: var(--dark-white);
+	--yellow: var(--dark-yellow);
+}
+
+html[data-theme="light"] {
+	--background: var(--light-background);
+	--bright-black: var(--light-bright-black);
+	--bright-blue: var(--light-bright-blue);
+	--bright-cyan: var(--light-bright-cyan);
+	--bright-green: var(--light-bright-green);
+	--bright-magenta: var(--light-bright-magenta);
+	--bright-red: var(--light-bright-red);
+	--bright-white: var(--light-bright-white);
+	--bright-yellow: var(--light-bright-yellow);
+	--black: var(--light-black);
+	--blue: var(--light-blue);
+	--cyan: var(--light-cyan);
+	--green: var(--light-green);
+	--magenta: var(--light-magenta);
+	--red: var(--light-red);
+	--white: var(--light-white);
+	--yellow: var(--light-yellow);
+}
