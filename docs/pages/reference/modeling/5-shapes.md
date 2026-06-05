@@ -4,7 +4,7 @@
 import { Shapes } from "//packages.education/agent"
 // Usage: Shapes.Arrow;
 // -- OR --
-import { Arrow } from "//packages.education/agent/shapes.js";
+import { Arrow } from "//packages.education/agent/shapes";
 // Usage: Arrow;
 ```
 

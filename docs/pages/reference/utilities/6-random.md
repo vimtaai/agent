@@ -4,7 +4,7 @@
 import { Random } from "//packages.education/agent"
 // Usage: Random.getRandomBoolean();
 // -- OR --
-import { getRandomBoolean } from "//packages.education/agent/utils.js";
+import { getRandomBoolean } from "//packages.education/agent/utils";
 // Usage: getRandomBoolean();
 ```
 

@@ -4,7 +4,7 @@
 import { Validator } from "//packages.education/agent"
 // Usage: Validator.validateNumber(5);
 // -- OR --
-import { validateNumber } from "//packages.education/agent/utils.js";
+import { validateNumber } from "//packages.education/agent/utils";
 // Usage: validateNumber(5);
 ```
 

@@ -5,6 +5,11 @@
 	"author": "Márton Visnovitz <vimtaai@pm.me>",
 	"license": "MIT",
 	"main": "lib/index.js",
+	"exports": {
+		".": "./lib/index.js",
+		"shapes": "./lib/shapes.js",
+		"utils": "./lib/utils.js"
+	},
 	"scripts": {
 		"docs:serve": "docusaurus start docs",
 		"docs:build": "docusaurus build docs"

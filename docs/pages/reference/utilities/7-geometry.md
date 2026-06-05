@@ -4,7 +4,7 @@
 import { Geometry } from "//packages.education/agent"
 // Usage: Geometry.convertDegreesToRadians(30);
 // -- OR --
-import { convertDegreesToRadians } from "//packages.education/agent/utils.js";
+import { convertDegreesToRadians } from "//packages.education/agent/utils";
 // Usage: convertDegreesToRadians(30);
 ```
 
